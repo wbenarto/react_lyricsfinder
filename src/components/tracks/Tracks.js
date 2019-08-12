@@ -6,7 +6,9 @@ class Tracks extends Component {
     render() {
         return (
             <Consumer>
-                {value => value.map( e => e )}
+                {value => {
+                    console.log(value)
+                }}
             </Consumer>
         )
     }
