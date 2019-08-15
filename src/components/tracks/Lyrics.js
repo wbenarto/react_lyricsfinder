@@ -61,8 +61,7 @@ class Lyrics extends Component {
                     <li className='list-group-item'>
                         <strong>Release Date</strong>: {track.first_release_date}
                     </li>
-                </ul>
-            </React.Fragment>
+                </ul>             </React.Fragment>
             )
         }
 
